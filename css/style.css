@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/02/2018, 10:47:58 PM
+    Author     : atenc
+*/
+html, body, #viewDiv{font-family: sans-serif;
+padding: 0;
+margin: 0;
+height: 100%;
+width: 100%}
+
+.esri-widget-button {
+    background-color: #005fa2;
+    color: #c9c9c9;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.esri-widget-button:hover {
+    background-color: #005fa2;
+    color: #fff;
+}
+.esriPopup .titlePane {
+    background-color: #005fa2;
+}
+.esri-view-width-large .esri-popup__main-container{
+    width: 300px;
+}
+.esri-view-width-medium .esri-popup__main-container {
+    width: 300px;
+}
+.esri-popup__header {
+    background-color: #005fa2;
+    color: #fff
+}
+.esri-popup__icon{
+    color: #fff
+}
+.esri-zoom{
+    background-color: transparent
+}
+
+.esri-ui-corner .esri-component {
+    box-shadow: none;
+}
+.esri-expand__panel{
+    background-color: transparent;
+}
+.esri-expand {
+    overflow: visible;
+    background-color: transparent;
+}
+.esri-search{
+    border-radius: 25px 25px 25px 25px;
+}
